@@ -1,3 +1,15 @@
+/**
+* Google Apps Script: enumere todos los archivos y carpetas en una carpeta de Google Drive y escríbalos en una hoja de cálculo.
+* - Función principal 1: Listar todas las carpetas
+* - Función principal 2: enumerar todos los archivos y carpetas
+*
+* Sugerencia: ¡Establezca su ID de carpeta primero! Puede copiar la ID de la carpeta desde el campo de dirección del navegador.
+* El ID de la carpeta es todo lo que está después de la parte 'carpetas/' de la URL.
+*
+* @versión 1.0
+* @ver      https://github.com/corval
+*/
+
 function onOpen() {
     var SS = SpreadsheetApp.getActiveSpreadsheet();
     var ui = SpreadsheetApp.getUi();
